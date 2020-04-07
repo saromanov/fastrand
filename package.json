@@ -1,0 +1,19 @@
+{
+  "name": "fastrand",
+  "version": "1.0.0",
+  "description": "Fast generation of random numbers",
+  "main": "fastrand.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saromanov/fastrand.git"
+  },
+  "author": "Sergey Romanov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saromanov/fastrand/issues"
+  },
+  "homepage": "https://github.com/saromanov/fastrand#readme"
+}

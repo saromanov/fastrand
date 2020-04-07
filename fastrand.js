@@ -1,9 +1,10 @@
-var FastRand = function(bound){
+var FastRand = function(beem, bound){
     value = -bound % bound;
-    n = next(value);
+    n = next(beem);
     for (;n < value;) {
         n = next(n); 
     }
+    return n % bound;
 }
 
 var next = function(n) {
