@@ -1,4 +1,13 @@
 var FastRand = function(beem, bound){
+    if(!Number.isInteger(beem)) {
+      throw 'beem argument is not integer'
+    }
+    if(!Number.isInteger(beem)) {
+      throw 'bound argument is not integer'
+    }
+    if(bound <= 0) {
+      throw 'bound argument cound not be less or equal 0';
+    }
     value = -bound % bound;
     n = next(beem);
     for (;n < value;) {
