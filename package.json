@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/saromanov/fastrand/issues"
   },
-  "homepage": "https://github.com/saromanov/fastrand#readme"
+  "homepage": "https://github.com/saromanov/fastrand#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  }
 }
